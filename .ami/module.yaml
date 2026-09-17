@@ -1,0 +1,12 @@
+ecosystem: AMI
+name: AMI-Kernel
+kind: capability
+parent: kajobert/AMI
+status: DESIGN
+lifecycle: CURRENT
+visibility: public
+autonomous_growth: false
+principle: Trust instead of Authority
+interfaces:
+  - AMI-Knowledge-Core
+  - AMI-Protocol
